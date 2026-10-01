@@ -1,0 +1,1 @@
+const MAPTILER_API_KEY = "oNcKhZKEy8Z3nhoFHIR1";
