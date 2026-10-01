@@ -20,4 +20,21 @@
       <p>Cari informasi lokasi dengan cepat menggunakan data geocoding dari MapTiler.</p>
     </header>
 
-   
+     <section class="search-card">
+      <form id="locationForm">
+        <label for="location">Lokasi</label>
+        <div class="search-row">
+          <input id="location" name="location" type="text"
+                 placeholder="Contoh: Yogyakarta" autocomplete="off" required>
+          <button type="submit" id="searchButton">
+            <span id="buttonText">Cari Lokasi</span>
+            <span id="spinner" class="spinner hidden"></span>
+          </button>
+        </div>
+        <small>Masukkan nama kota, kecamatan, provinsi, atau tempat.</small>
+      </form>
+    </section>
+
+    <div id="message" class="message hidden"></div>
+
+    
